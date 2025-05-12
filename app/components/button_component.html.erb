@@ -1,0 +1,9 @@
+<button
+  type="<%= @type %>"
+  <%= "onclick=\"#{@onclick}\"".html_safe if @onclick.present? %>
+  class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md shadow-sm text-white <%= variant_classes %> focus:outline-none focus:ring-2 focus:ring-offset-2 <%= additional_classes %>"
+  <%= data_attributes.html_safe if @data.present? %>
+>
+  <%= @text %>
+  <%= content %>
+</button>
