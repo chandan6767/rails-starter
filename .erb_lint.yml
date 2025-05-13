@@ -1,0 +1,33 @@
+linters:
+  FinalNewline:
+    enabled: true
+    present: true
+
+  SpaceAroundErbTag:
+    enabled: true
+
+  Indentation:
+    enabled: true
+    tab_width: 2
+
+  ErbSafety:
+    enabled: true
+
+  NoJavascriptTagHelper:
+    enabled: true
+
+  NoRedirectToRender:
+    enabled: true
+
+  NoObjectHtmlAttributes:
+    enabled: true
+
+  TrailingWhitespace:
+    enabled: true
+
+  LineLength:
+    enabled: true
+    max: 120
+
+  HtmlCommentStyle:
+    enabled: true
