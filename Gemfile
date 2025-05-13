@@ -56,6 +56,12 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
+
+  gem "erb_lint", require: false, git: "https://github.com/Shopify/erb-lint.git", branch: "main"
+
+  gem "overcommit", require: false
+
+  gem "htmlbeautifier"
 end
 
 group :test do

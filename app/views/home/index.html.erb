@@ -8,14 +8,13 @@
       <p data-clock-target="output"></p>
     </div>
   </div>
-
   <div data-controller="counter" class="flex flex-col gap-4 justify-center items-center">
     <p data-counter-target="output" class="text-6xl font-bold text-pink-700">0</p>
     <%= render(ButtonComponent.new(
-      text: "Increment", 
-      onclick: "console.log('Hello!')", 
-      variant: "primary", 
-      classes: "rounded-0", 
+      text: "Increment",
+      onclick: "console.log('Hello!')",
+      variant: "primary",
+      classes: "rounded-0",
       data: { action: "click->counter#increment" }
     )) %>
   </div>
